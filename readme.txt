@@ -13,13 +13,9 @@
 
     1 - Ouvrir le dossier 'Excuse' dans un terminal de commandes et lancé la commande 'composer install'
 
-    2 - Configuré avec vos paramétres le fichier '.env' pour mettre à jour les informations sur la base de données
+    2 - Configuré avec vos paramétres le fichier '.env' pour mettre à jour les informations sur la base de données ligne 25/30
+	exemple : DATABASE_URL="mysql://root:@127.0.0.1:3306/symfony_excuses"
 
-    Par défaut les informations sont : 
-        "host": "localhost",
-        "database": "symfony_excuses",
-        "user": "root",
-        "password": ""
 
     3 - Créer la base de données 'symfony_excuses' est importer la fichier sql fourni dans 'publics/assets'
 
