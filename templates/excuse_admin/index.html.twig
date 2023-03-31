@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<table>
+    <tr>
+        <th>id</th>
+        <th>http_code</th>
+        <th>Tag</th>
+        <th>Message</th>
+    </tr>
+    {% for excuse in excuses %}
+    <tr>
+        <td>{{ excuse.id }}</td>
+        <td>{{ excuse.httpcode }}</td>
+        <td>{{ excuse.tag }}</td>
+        <td>{{ excuse.message }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
