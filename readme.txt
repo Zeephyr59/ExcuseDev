@@ -16,11 +16,9 @@
     2 - Configuré avec vos paramétres le fichier '.env' pour mettre à jour les informations sur la base de données ligne 25/30
 	exemple : DATABASE_URL="mysql://root:@127.0.0.1:3306/symfony_excuses"
 
-
     3 - Créer la base de données 'symfony_excuses' est importer la fichier sql fourni dans 'publics/assets'
 
-    4 - Lancer l'API avec la commande 'symfony server:start
-    Par défaut l'API se lancera sur le port 8000
+    4 - Lancer l'API avec la commande 'symfony server:start (Par défaut l'API se lancera sur le port 8000 en local)
 
 
 ## Utilisation
@@ -29,7 +27,7 @@
 
     0. "/security/login"            (Permet de se connecter)
     1. "/security/logout"           (Permet de se déconnecter)
-    3. "/security/register"         (Permet permettant de s'inscrire | bloquer si non connecter pour éviter que n'importe qui puisse modifier les données)
+    3. "/security/register"         (Permet de s'inscrire | bloquer si non connecter pour éviter que n'importe qui puisse modifier les données)
     4. "/admin/excuses"             (Liste les excuses)
     5. "/admin/createExcuse"        (Permet l’ajout d'une excuse à la liste des excuses)
     6. "/admin/updateExcuse/{id}"   (Permet de modifier une excuse)
