@@ -36,7 +36,7 @@
 
     1. "/"          => Page principale "Les excuses de dev".
     2. "/lost"      => Page affichant "i’m lost" avec un gif au centre de la page, après 5 secondes
-    3. "/*"         => Page erreur 404
+    3. "/*"         => Page erreur 404 ("_error/404" chemin tant que l'API est en 'dev' | À modifier dans '.env' ligne 18 par 'prod' si nécessaire)
     4. "/{httpcode} => Page affichant l'excuse correspondant au code http
 
 
